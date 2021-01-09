@@ -51,7 +51,7 @@ class _EditNotePageState extends State<EditNotePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(187, 220, 38, 0.8),
+        backgroundColor: Color.fromRGBO(187, 220, 38, 0.8),
         body: Stack(
       children: <Widget>[
         ListView(

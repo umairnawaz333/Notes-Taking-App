@@ -7,7 +7,9 @@ import 'package:flutter/painting.dart';
 import 'package:flutter/widgets.dart';
 import 'package:intl/intl.dart';
 import 'package:my_notes_taking_app/data/models.dart';
+import 'package:my_notes_taking_app/data/theme.dart';
 import 'package:my_notes_taking_app/screens/edit.dart';
+import 'package:my_notes_taking_app/screens/home.dart';
 import 'package:my_notes_taking_app/services/database.dart';
 import 'package:outline_material_icons/outline_material_icons.dart';
 import 'package:share/share.dart';
@@ -43,6 +45,7 @@ class _ViewNotePageState extends State<ViewNotePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Color.fromRGBO(187, 220, 38, 0.8),
         body: Stack(
       children: <Widget>[
         ListView(
@@ -188,7 +191,7 @@ class _ViewNotePageState extends State<ViewNotePage> {
                       .deleteNoteInDB(widget.currentNote);
                   widget.triggerRefetch();
                   Navigator.pop(context);
-                  Navigator.pop(context);
+                  // Navigator.pop(context);
                 },
               ),
               FlatButton(
