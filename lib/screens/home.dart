@@ -68,8 +68,8 @@ class _MyHomePageState extends State<MyHomePage> {
           child: ListView(
             physics: BouncingScrollPhysics(),
             children: <Widget>[
+              SizedBox(height: 30.0,),
               Row(
-                // mainAxisAlignment: MainAxisAlignment.end,
                 children: <Widget>[
                   Expanded(
                     child: Container(
@@ -139,7 +139,6 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
               buildHeaderWidget(context),
-              buildButtonRow(),
               buildImportantIndicatorText(),
               Container(height: 32),
               ...buildNoteComponentsList(),
@@ -151,17 +150,6 @@ class _MyHomePageState extends State<MyHomePage> {
           margin: EdgeInsets.only(top: 2),
           padding: EdgeInsets.only(left: 15, right: 15),
         ),
-      ),
-    );
-  }
-
-  Widget buildButtonRow() {
-    return Padding(
-      padding: const EdgeInsets.only(left: 10, right: 10),
-      child: Row(
-        children: <Widget>[
-
-        ],
       ),
     );
   }

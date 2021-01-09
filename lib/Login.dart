@@ -6,8 +6,6 @@ import 'package:fluttertoast/fluttertoast.dart';
 import 'package:my_notes_taking_app/Registration.dart';
 import 'package:my_notes_taking_app/main.dart';
 
-void main() => runApp(MaterialApp(home: SignInScreen()));
-
 class SignInScreen extends StatefulWidget {
   @override
   _SignInScreenState createState() => _SignInScreenState();
@@ -87,6 +85,7 @@ class _SignInScreenState extends State<SignInScreen> {
         backgroundColor: Colors.transparent,
           body: ListView(
             children: <Widget>[
+              SizedBox(height: 20.0,),
               Container(
                 height: 200,
                 decoration: BoxDecoration(

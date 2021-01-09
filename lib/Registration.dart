@@ -90,6 +90,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         backgroundColor: Colors.transparent,
         body: ListView(
           children: <Widget>[
+            SizedBox(height: 20.0,),
             Container(
               height: 200,
               decoration: BoxDecoration(
