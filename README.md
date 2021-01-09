@@ -1,16 +1,26 @@
-# my_notes_taking_app
+# MyQuizApp-Flutter
+> Mobile App Development Assignment Before 2nd Sessional
 
-A new Flutter application.
 
-## Getting Started
+## Features:
 
-This project is a starting point for a Flutter application.
+* Attractive UI and ICON.
+* SignUp and SignIn With Email using FIREBASE
+* Attractive UI and ICON.
+* Multiple Screens
+* Start With Splash Screen.
+* Create Notes 
+* Save Notes with Date & Time.
+* Edite Notes
+* Share Notes using Whatsapp ,etc
+* Search within Notes.
+* Set Flag for Filter
+* Attractive UI... 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## ScreenShots:
+<kbd><img src="ScreenShots/Screenshot_20201118-174109.jpg" width="200"></kbd>
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+ For Upcoming Apps, Follow me 
+[`umairnawaz333`](https://github.com/umairnawaz333) 
