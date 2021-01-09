@@ -46,6 +46,7 @@ class NoteCardComponent extends StatelessWidget {
             splashColor: color.withAlpha(20),
             highlightColor: color.withAlpha(10),
             child: Container(
+              color: Color.fromRGBO(187, 220, 38, 0.5),
               padding: EdgeInsets.all(16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -127,8 +128,10 @@ class AddNoteCardComponent extends StatelessWidget {
         decoration: BoxDecoration(
           border: Border.all(color: Theme.of(context).primaryColor, width: 2),
           borderRadius: BorderRadius.circular(16),
+          color: Color.fromRGBO(187, 220, 38, .5),
         ),
         child: Material(
+          color: Color.fromRGBO(187, 220, 38, .5),
           borderRadius: BorderRadius.circular(16),
           clipBehavior: Clip.antiAlias,
           child: Container(

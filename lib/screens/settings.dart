@@ -30,6 +30,7 @@ class _SettingsPageState extends State<SettingsPage> {
     });
 
     return Scaffold(
+      backgroundColor: Color.fromRGBO(187, 220, 38, 0.9 ),
       body: ListView(
         physics: BouncingScrollPhysics(),
         children: <Widget>[
@@ -51,7 +52,8 @@ class _SettingsPageState extends State<SettingsPage> {
                 padding: const EdgeInsets.only(left: 16, top: 36, right: 24),
                 child: buildHeaderWidget(context),
               ),
-              buildCardWidget(Column(
+              buildCardWidget(
+                  Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text('App Theme',
@@ -173,7 +175,7 @@ class _SettingsPageState extends State<SettingsPage> {
   Widget buildCardWidget(Widget child) {
     return Container(
       decoration: BoxDecoration(
-          color: Theme.of(context).dialogBackgroundColor,
+          color: Color.fromRGBO(187, 220, 38, 0.5),
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(

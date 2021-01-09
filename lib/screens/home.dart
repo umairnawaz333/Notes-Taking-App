@@ -51,6 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color.fromRGBO(187, 220, 38, 0.8),
       // floatingActionButton: FloatingActionButton.extended(
       //   backgroundColor: Theme.of(context).primaryColor,
       //   onPressed: () {
