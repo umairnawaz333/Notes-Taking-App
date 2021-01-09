@@ -1,5 +1,6 @@
-# MyQuizApp-Flutter
-> Mobile App Development Assignment Before 2nd Sessional
+# Note Taking App - Flutter
+> Mobile App Development LAB Final
+> Umair Nawaz - SP17-BCS-053
 
 
 ## Features:
@@ -18,8 +19,18 @@
 * Attractive UI... 
 
 
+## GIF:
+<kbd><img src="S/Notes.gif" width="200"></kbd>
+
 ## ScreenShots:
-<kbd><img src="ScreenShots/Screenshot_20201118-174109.jpg" width="200"></kbd>
+<kbd><img src="S/1.jpg" width="200"></kbd>
+<kbd><img src="S/2.jpg" width="200"></kbd>
+<kbd><img src="S/3.jpg" width="200"></kbd>
+<kbd><img src="S/4.jpg" width="200"></kbd>
+<kbd><img src="S/5.jpg" width="200"></kbd>
+<kbd><img src="S/6.jpg" width="200"></kbd>
+<kbd><img src="S/7.jpg" width="200"></kbd>
+<kbd><img src="S/8.jpg" width="200"></kbd>
 
 
  For Upcoming Apps, Follow me 
