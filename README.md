@@ -20,7 +20,7 @@
 
 
 ## GIF:
-<kbd><img src="S/Notes.gif" width="200"></kbd>
+<kbd><img src="S/Note taking app.gif" width="200"></kbd>
 
 ## ScreenShots:
 <kbd><img src="S/1.jpg" width="200"></kbd>
